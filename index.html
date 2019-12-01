@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>chatroom</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script                         src="https://kit.fontawesome.com/2c80cd9059.js"></script>
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="loginScreen">
+      <div id="loginForm">
+        <input type="text" name="username" placeholder="username"><br><input type="button" name="join" value="Join">
+      </div>
+    </div>
+    <main>
+      <div id="chatBox">
+        <div id="mainChat">
+
+        </div>
+
+        <div id="messageBar">
+          <input type="text" name="message" placeholder="Message ..."><input type="button" name="send" value="send">
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript"  src="js/script.js"></script>
+  </body>
+</html>
